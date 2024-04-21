@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .my-button {
+    @apply text-white px-4 py-2 md:px-4 md:py-3 md:text-lg text-sm flex items-center justify-center bg-primary rounded-2xl hover:opacity-90 w-fit cursor-pointer;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
